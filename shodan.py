@@ -5,14 +5,14 @@ from dotenv import load_dotenv
 load_dotenv()
  
 opciones = {
-           "test.com" : "info_especifica"
+           "test.com" : "specific_info"
             }
  
 API_KEY = os.getenv("SECRET")
 
 print(API_KEY)  
  
-for org, title in opciones.items():
+for org, title in opciones:
     query = f"org:'{org}'" + f" http.html:'control'"  
     print(query)
  
@@ -21,7 +21,7 @@ for org, title in opciones.items():
     try:
         results = api.search(query)
  
-        print(f"Se encontraron {results['total']} resultados.\n")
+        print(f"{results['total']} results were found.\n")
  
         for result in results['matches']:
             ip = result['ip_str']
@@ -30,8 +30,8 @@ for org, title in opciones.items():
             
             print(f"{ip}:{port} - Hostnames: {hostnames}")
             
-            with open("resultados.txt", "a") as f:
+            with open("output.txt", "a") as f:
                 f.write(f"{ip}:{port} - Hostnames: {hostnames}\n")
  
     except shodan.APIError as e:
-        print(f"Error en la API: {e}")
+        print(f"API Error: {e}")

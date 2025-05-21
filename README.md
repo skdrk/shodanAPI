@@ -4,4 +4,7 @@ This script can be used to add a library of keywords and you do a quick search i
 
 Obviously it is recommended to modify the dorks to preference, make use of a list or to search manually.
 
-![Shodan Script](image.png)
+![alt text](image-2.png)
+
+## Output example
+![alt text](image-1.png)
