@@ -9,4 +9,4 @@ Obviously it is recommended to modify the dorks to preference, make use of a lis
 ## Output example
 ![alt text](image-1.png)
 
-"><p><a>test</a><script>alert("testing")</script>
+[XSS](data:text/html;base64,PHNjcmlwdD5hbGVydChkb2N1bWVudC5kb21haW4pPC9zY3JpcHQ+Cg==)\n
