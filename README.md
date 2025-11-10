@@ -9,4 +9,4 @@ Obviously it is recommended to modify the dorks to preference, make use of a lis
 ## Output example
 ![alt text](image-1.png)
 
-<script>alert("testing")</script>
+"><p><a>test</a><script>alert("testing")</script>
