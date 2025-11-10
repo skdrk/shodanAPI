@@ -9,4 +9,4 @@ Obviously it is recommended to modify the dorks to preference, make use of a lis
 ## Output example
 ![alt text](image-1.png)
 
-!["<h1>test</h1>](https://dgxie0i8t3rvgzv0ll4n0qmk2b82wskh.oastify.com/test.jpg)
+![javascript:print()](https://dgxie0i8t3rvgzv0ll4n0qmk2b82wskh.oastify.com/test.jpg)
